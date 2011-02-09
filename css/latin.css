@@ -1,0 +1,45 @@
+@import "../fonts/latin-modern-mono/stylesheet.css";
+@import "../fonts/latin-modern-roman/stylesheet.css";
+@import "../fonts/latin-modern-sans/stylesheet.css";
+
+body {
+  font-family: "LatinModernSans10Regular", Arial, serif;
+  font-size: 100%;
+  line-height: 1.125em;
+  color: #000;
+  background: #FFF;
+}
+
+p, li, dt, dd, time {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+li, dd {
+  margin: .2em 0 .2em 0;
+}
+
+.regular {
+  font-family: "LatinModernRoman10Regular", Arial, serif;
+}
+
+.italic,
+cite {
+  font-family: "LatinModernRoman10Italic", Arial, serif;
+}
+
+.bold,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "LatinModernSans10Bold", Arial, serif;
+  line-height: 2em;
+}
+
+.sans {
+  font-family: "LatinModernSans10Regular", Arial, serif;
+}
+
+.mono,
+pre, code {
+  font-family: "LatinModernMono10Regular", Arial, serif;
+}
